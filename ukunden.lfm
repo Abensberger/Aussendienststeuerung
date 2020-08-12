@@ -1,0 +1,1418 @@
+object Form2: TForm2
+  Left = 580
+  Height = 695
+  Top = 173
+  Width = 1322
+  Caption = 'Form2'
+  ClientHeight = 695
+  ClientWidth = 1322
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '2.0.10.0'
+  object pnlKunden: TBCPanel
+    Left = 0
+    Height = 695
+    Top = 0
+    Width = 1322
+    Align = alClient
+    Background.Color = clBtnFace
+    Background.Gradient1.StartColor = 15313517
+    Background.Gradient1.EndColor = 10510137
+    Background.Gradient1.GradientType = gtLinear
+    Background.Gradient1.Point2YPercent = 100
+    Background.Gradient2.StartColor = clWhite
+    Background.Gradient2.EndColor = clBlack
+    Background.Gradient2.GradientType = gtLinear
+    Background.Gradient2.Point2YPercent = 100
+    Background.Gradient1EndPercent = 100
+    Background.Style = bbsGradient
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    BevelWidth = 1
+    Border.Style = bboSolid
+    FontEx.Color = clDefault
+    FontEx.FontQuality = fqSystemClearType
+    FontEx.Shadow = False
+    FontEx.ShadowRadius = 5
+    FontEx.ShadowOffsetX = 5
+    FontEx.ShadowOffsetY = 5
+    FontEx.Style = []
+    ParentBackground = False
+    Rounding.RoundX = 1
+    Rounding.RoundY = 1
+    ShowHint = True
+    TabOrder = 0
+    object StaticText14: TStaticText
+      Left = 13
+      Height = 26
+      Top = 13
+      Width = 106
+      AutoSize = True
+      Caption = 'SNWmobile'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -19
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+    end
+    object StaticText15: TStaticText
+      Left = 13
+      Height = 31
+      Top = 38
+      Width = 71
+      AutoSize = True
+      Caption = 'Kunden'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -21
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Image14: TImage
+      Left = 1235
+      Height = 70
+      Top = 13
+      Width = 70
+      Anchors = [akTop, akRight]
+      Center = True
+      OnClick = Image14Click
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B477261706869639D06000089504E47
+        0D0A1A0A0000000D49484452000000320000003208060000001E3F88B1000000
+        017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048
+        597300000EC300000EC301C76FA86400000632494441546843D59A3D689E5514
+        C7F3BE64C8D02160C10E1D22647070285831836005C10C421D3A2864E8902143
+        B7A690A1C5408608191C3A64C8D0A14284565A90928A43850C0A113AD8920E85
+        0AB62412A14385162C89BFFF79CEBD3ECF9327EFFB7CE5C33F9CF7DC7BEEB9E7
+        9EFBFDF1BC9D8196B0B3B333049DE9743A63F037119D4891F017B42942E7193A
+        0FE077A1BF2DF5308133C7B7B7B727A01BD00BE295409E97D00A34099D74B3B5
+        50AB47F06118FA92E0142D3A9448132057AB3F86AC0748FFD3E56FC0D43BC7A1
+        51E419C7497F0DFB06BAD2ED769F9A70BF40611A3E33B4DE737804F135E832C1
+        53AEDA17E88F42D3D02AF44F6229F6D23CC161576D17183E43011B561A50E1D0
+        12D468480898D3109D875E26D6CDFE73E89CABB4030C6A0CA75B4DE3FA1D4F6E
+        0D981EC1EEF5A49488594FAE0F8C0C62F8EBC45E6CA5714FDE3750C618F48717
+        AB729761C73CB91AC8A84ADC304B80F03A34EAC9FB0E8A3C4179AB49E956BEC2
+        D52B43C6744F7C0FABD7220D40996ACC25730210BEE549E5408649CF6B9570F1
+        A1011F16DD1DF933E7E2DE4057AB934D6CF83AECC07B220F7C50CFDC934F02E1
+        094F2A063A4328D9120BD7C43EB039D10FB8A425FA89FBA6534438FAEC068933
+        5214506E6575C2CE4968D2A38D805BA7B01546CBA28BB3206D9844DBB1E12B2E
+        6E044CC54D147E0D9639CED4812AE0F6B421EF1E31086D957285C69B1D362EC8
+        966C06105F838D78FA02F4C469D9329500F9B52C8706CFAE62C834FEEC78005F
+        72712D6042F34CAD1F413C7DB4D9827D9CD6217CCFB39702FA3AD71908FFD7E8
+        44265CAE84DA6727E585D4EA06C22FDCB61AEAC7446A72F57A7AE7AE5411B2A8
+        B1ECDA00BFEC6273C07670F89A8B2A83ECF943A55698781A26AC2574C1127340
+        5EA9220279B23E132EAE5D05902F331F08ABF575EFD805D27411CB5CC288D7A9
+        487614F133EE71A1F47D4240BF683EA8D5075D453A9A0F5A48E28A4558CBA8ED
+        0902E12D68CC934B816C1AAE61299E9260D6231BAE530AE817CE074F96DD4168
+        1659284C97AF38FF1015CD9B4AFB0DFA3F7BDE6B8A847579D5D3FB02F57EF341
+        4B6474320099AD58AE669545969937C44BEF37E8DADD05BEA2C82D8F943A59A2
+        D7733E10D6508A95CCC3F3CEB8BA015966DE102EB5E8A017F6BEFB8A84EE29DE
+        F273906E0079F2F341F7F958C95E404FAB4E3C9012CECC1B17F7046A76A422DF
+        862A123297BA524A913CF9F9A0F1BEA2B42A20CF6FB0B7DD4CB06343D2453D81
+        DA79E90AAA886D4CF0524B2F7AF9F9F041B05107E4D590FACCCDC99ECD1B8FF6
+        04BA998AD8CA03BFEAE93D816A7A3E9C275FA9A1D40FD8B9E0664B833CD39E77
+        AB4B5C0F6AC2DEE7FB143A9D8E1EDE0CD8F890789C230DF1AEF32AD0D3ACB099
+        AE48E14E7CC4117CDEECD2A2CF3CD2FA6D901EFB3D4D2E6E13C1E7A75D0A78A0
+        90DE62196BAD56A6DBEDBE952617B702FCD6D27D3A890D3C548FDC45F8CA0571
+        F538EAC0E7717C0F2780DBAA88BE4FFC94C407CE3AFF3FC07CA5428FE8EDC79A
+        ECC277CEF591E6C84F7A7CD44A191E476EEA275444C3EB35BDA313EB45971D59
+        E0E324BE8606BFE33C0113DDEE1570DDDDED81A01F429EBDE06A112E2E846CB9
+        5A4FA0AAD79EF032132F64A147842BA4BDD20482977B963C04E0DB457C0C9BF7
+        25E7D94F6FD4701E253B6293E13D26D1AF96B007D0D1E9F3138FEE02F93FF2A0
+        21DD827950EE0FD0571E2D04658D40EBDED8DF62FF0B4FCA82C4F4239D0E82A5
+        8E2D07017C39864FF7DDB7E2C7B93450F85CCA02617D9368EB2CD508F8A28F3D
+        06C2D32EEE0D74ED1E2F90A9D1835D1BC087F4835CA9452122D702576187D233
+        B94A541F2164D0984C7FFAD2F78903DB2C294BE5A71B53DF6AEACD5932CA983D
+        4E0884F5E0DCFAD7DC3C284A5F776D620B84D5A0CD171E0CCD2526CDA8560C3D
+        21B5BEA26153ABE61C94FEDEAE4DB7BD618D413DD9E43FE86BFC36FEE6810DDD
+        D3A7A0F45B991AACDCEA5415D8D7C3DBA20A498AB302F5A2A23FD5D8ABBBABF6
+        05BA1AB6E7A0EB901EEE22882F4395EE46999DBD2CBC900576D8CCFD051FF4C7
+        189D06EC4F35A4EB0F357695264D95D41D5B5CF94F6B878647A0A3EBC4A57E27
+        8A22D4AA480015D2C45765CEE254B8AD5502CE3F82E9287E870AFC62C21A6854
+        9134A8941EA83F85DE87B4101851415B147038FEF10CD2DF981E42B7715EBDD7
+        100303FF0239A86B359DA36C950000000049454E44AE426082
+      }
+    end
+    object Edit1: TEdit
+      Left = 13
+      Height = 23
+      Top = 98
+      Width = 227
+      OnKeyUp = Edit1KeyUp
+      TabOrder = 2
+      TextHint = 'Suchbegriff eingeben'
+    end
+    object BCPanel1: TBCPanel
+      Left = 13
+      Height = 525
+      Top = 128
+      Width = 259
+      Anchors = [akTop, akLeft, akBottom]
+      Background.Color = clCaptionText
+      Background.Gradient1.StartColor = clWhite
+      Background.Gradient1.EndColor = clBlack
+      Background.Gradient1.GradientType = gtLinear
+      Background.Gradient1.Point2YPercent = 100
+      Background.Gradient2.StartColor = clWhite
+      Background.Gradient2.EndColor = clBlack
+      Background.Gradient2.GradientType = gtLinear
+      Background.Gradient2.Point2YPercent = 100
+      Background.Gradient1EndPercent = 35
+      Background.Style = bbsColor
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      BevelWidth = 1
+      Border.Style = bboNone
+      Caption = 'BCPanel1'
+      FontEx.Color = clDefault
+      FontEx.FontQuality = fqSystemClearType
+      FontEx.Shadow = False
+      FontEx.ShadowRadius = 5
+      FontEx.ShadowOffsetX = 5
+      FontEx.ShadowOffsetY = 5
+      FontEx.Style = []
+      ParentBackground = False
+      Rounding.RoundX = 1
+      Rounding.RoundY = 1
+      TabOrder = 3
+      object BCListBox1: TBCListBox
+        Left = 1
+        Height = 523
+        Top = 1
+        Width = 257
+        Align = alClient
+        BorderSpacing.Around = 1
+        BorderStyle = bsNone
+        Color = 10510137
+        ItemHeight = 64
+        OnDrawItem = BCListBox1DrawItem
+        OnSelectionChange = BCListBox1SelectionChange
+        Options = []
+        Style = lbOwnerDrawFixed
+        TabOrder = 0
+      end
+    end
+    object BCPanel2: TBCPanel
+      Left = 13
+      Height = 26
+      Top = 652
+      Width = 259
+      Anchors = [akLeft, akBottom]
+      Background.Color = 10510137
+      Background.Gradient1.StartColor = clWhite
+      Background.Gradient1.EndColor = clBlack
+      Background.Gradient1.GradientType = gtLinear
+      Background.Gradient1.Point2YPercent = 100
+      Background.Gradient2.StartColor = clWhite
+      Background.Gradient2.EndColor = clBlack
+      Background.Gradient2.GradientType = gtLinear
+      Background.Gradient2.Point2YPercent = 100
+      Background.Gradient1EndPercent = 35
+      Background.Style = bbsColor
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      BevelWidth = 1
+      Border.LightColor = clMenuHighlight
+      Border.Style = bboSolid
+      BorderBCStyle = bpsBorder
+      FontEx.Color = clDefault
+      FontEx.FontQuality = fqSystemClearType
+      FontEx.Shadow = False
+      FontEx.ShadowRadius = 5
+      FontEx.ShadowOffsetX = 5
+      FontEx.ShadowOffsetY = 5
+      FontEx.Style = []
+      ParentBackground = False
+      Rounding.RoundX = 1
+      Rounding.RoundY = 1
+      TabOrder = 4
+      object Label1: TLabel
+        Left = 171
+        Height = 26
+        Top = 0
+        Width = 83
+        Align = alRight
+        BorderSpacing.Right = 5
+        Caption = 'Anzahl Kunden:'
+        Font.Color = clHighlightText
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object Notebook1: TNotebook
+      Left = 281
+      Height = 549
+      Top = 128
+      Width = 968
+      PageIndex = 0
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      Color = 15313517
+      TabOrder = 5
+      object Page1: TPage
+        Color = 11889472
+        object Label2: TLabel
+          Left = 8
+          Height = 13
+          Top = 8
+          Width = 43
+          Caption = 'Nummer'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel1: TPanel
+          Left = 8
+          Height = 26
+          Top = 22
+          Width = 120
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 120
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 0
+          object Edit2: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 112
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label4: TLabel
+          Left = 8
+          Height = 13
+          Top = 54
+          Width = 29
+          Caption = 'Name'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel2: TPanel
+          Left = 8
+          Height = 26
+          Top = 68
+          Width = 280
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 280
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 1
+          object Edit3: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 272
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label5: TLabel
+          Left = 8
+          Height = 13
+          Top = 100
+          Width = 45
+          Caption = 'Vorname'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel3: TPanel
+          Left = 8
+          Height = 26
+          Top = 114
+          Width = 280
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 280
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 2
+          object Edit4: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 272
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label6: TLabel
+          Left = 8
+          Height = 13
+          Top = 146
+          Width = 56
+          Caption = 'Firmierung'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel4: TPanel
+          Left = 8
+          Height = 26
+          Top = 160
+          Width = 280
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 280
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 3
+          object Edit5: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 272
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label7: TLabel
+          Left = 8
+          Height = 13
+          Top = 192
+          Width = 32
+          Caption = 'Straße'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel5: TPanel
+          Left = 8
+          Height = 26
+          Top = 206
+          Width = 180
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 180
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 4
+          object Edit6: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 172
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label8: TLabel
+          Left = 168
+          Height = 13
+          Top = 8
+          Width = 69
+          Caption = 'Mediaberater'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel6: TPanel
+          Left = 168
+          Height = 26
+          Top = 22
+          Width = 120
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 120
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 5
+          object Edit7: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 112
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label9: TLabel
+          Left = 8
+          Height = 13
+          Top = 238
+          Width = 25
+          Caption = 'Land'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel7: TPanel
+          Left = 8
+          Height = 26
+          Top = 252
+          Width = 36
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 36
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 6
+          object Edit8: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 28
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label10: TLabel
+          Left = 56
+          Height = 13
+          Top = 238
+          Width = 17
+          Caption = 'PLZ'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel8: TPanel
+          Left = 56
+          Height = 26
+          Top = 252
+          Width = 56
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 56
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 7
+          object Edit9: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 48
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label11: TLabel
+          Left = 120
+          Height = 13
+          Top = 238
+          Width = 17
+          Caption = 'Ort'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel9: TPanel
+          Left = 120
+          Height = 26
+          Top = 252
+          Width = 168
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 168
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 8
+          object Edit10: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 160
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label12: TLabel
+          Left = 8
+          Height = 13
+          Top = 284
+          Width = 27
+          Caption = 'Email'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel10: TPanel
+          Left = 8
+          Height = 26
+          Top = 298
+          Width = 281
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 281
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 9
+          object Edit11: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 273
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label13: TLabel
+          Left = 168
+          Height = 13
+          Top = 330
+          Width = 17
+          Caption = 'Fax'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel11: TPanel
+          Left = 168
+          Height = 26
+          Top = 344
+          Width = 120
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 120
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 10
+          object Edit12: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 112
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label14: TLabel
+          Left = 8
+          Height = 13
+          Top = 330
+          Width = 38
+          Caption = 'Telefon'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel12: TPanel
+          Left = 8
+          Height = 26
+          Top = 344
+          Width = 120
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 120
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 11
+          object Edit13: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 112
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label15: TLabel
+          Left = 8
+          Height = 13
+          Top = 376
+          Width = 41
+          Caption = 'Branche'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel13: TPanel
+          Left = 8
+          Height = 26
+          Top = 390
+          Width = 281
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 281
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 12
+          object Edit14: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 273
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label16: TLabel
+          Left = 8
+          Height = 13
+          Top = 422
+          Width = 138
+          Caption = 'UmsatzsteuerIdentnummer'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel14: TPanel
+          Left = 8
+          Height = 26
+          Top = 436
+          Width = 144
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 144
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 13
+          object Edit15: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 136
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label17: TLabel
+          Left = 8
+          Height = 13
+          Top = 468
+          Width = 77
+          Caption = 'Umsatz Vorjahr'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel15: TPanel
+          Left = 8
+          Height = 26
+          Top = 482
+          Width = 144
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 144
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 14
+          object Edit16: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 136
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label18: TLabel
+          Left = 168
+          Height = 13
+          Top = 468
+          Width = 86
+          Caption = 'Umsatz lfds. Jahr'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel16: TPanel
+          Left = 168
+          Height = 26
+          Top = 482
+          Width = 120
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 120
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 15
+          object Edit17: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 112
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label21: TLabel
+          Left = 206
+          Height = 13
+          Top = 192
+          Width = 25
+          Caption = 'HsNr'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel17: TPanel
+          Left = 206
+          Height = 26
+          Top = 206
+          Width = 36
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 36
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 16
+          object Edit18: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 28
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+        object Label22: TLabel
+          Left = 252
+          Height = 13
+          Top = 192
+          Width = 33
+          Caption = 'Zusatz'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -11
+          Font.Name = 'Segoe UI'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object Panel18: TPanel
+          Left = 252
+          Height = 26
+          Top = 206
+          Width = 36
+          BevelOuter = bvNone
+          ClientHeight = 26
+          ClientWidth = 36
+          Color = clSkyBlue
+          ParentColor = False
+          TabOrder = 17
+          object Edit19: TEdit
+            Left = 3
+            Height = 21
+            Top = 5
+            Width = 28
+            Align = alClient
+            BorderSpacing.Left = 3
+            BorderSpacing.Top = 5
+            BorderSpacing.Right = 5
+            BorderStyle = bsNone
+            Color = clSkyBlue
+            TabOrder = 0
+            Text = 'Edit2'
+          end
+        end
+      end
+      object Page2: TPage
+        object Label3: TLabel
+          Left = 16
+          Height = 15
+          Top = 16
+          Width = 41
+          Caption = 'Notizen'
+          ParentColor = False
+        end
+      end
+    end
+    object BCPanel3: TBCPanel
+      Left = 281
+      Height = 32
+      Top = 96
+      Width = 1025
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.InnerBorder = 1
+      Background.Color = 15313517
+      Background.Gradient1.StartColor = clWhite
+      Background.Gradient1.EndColor = clBlack
+      Background.Gradient1.GradientType = gtLinear
+      Background.Gradient1.Point2YPercent = 100
+      Background.Gradient2.StartColor = clWhite
+      Background.Gradient2.EndColor = clBlack
+      Background.Gradient2.GradientType = gtLinear
+      Background.Gradient2.Point2YPercent = 100
+      Background.Gradient1EndPercent = 35
+      Background.Style = bbsColor
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      BevelWidth = 1
+      Border.Style = bboSolid
+      BorderBCStyle = bpsBorder
+      FontEx.Color = clDefault
+      FontEx.FontQuality = fqSystemClearType
+      FontEx.Shadow = False
+      FontEx.ShadowRadius = 5
+      FontEx.ShadowOffsetX = 5
+      FontEx.ShadowOffsetY = 5
+      FontEx.Style = []
+      ParentBackground = False
+      Rounding.RoundX = 1
+      Rounding.RoundY = 1
+      TabOrder = 6
+      object ColorSpeedButton1: TColorSpeedButton
+        Left = 1
+        Height = 30
+        Top = 1
+        Width = 119
+        Align = alLeft
+        BorderSpacing.Left = 1
+        BorderSpacing.Top = 1
+        BorderSpacing.Bottom = 1
+        Caption = 'Kundendaten'
+        Down = True
+        Flat = True
+        Font.Color = clWhite
+        GroupIndex = 1
+        OnClick = ColorSpeedButton1Click
+        ParentFont = False
+        TextAutoSize = True
+        Toggle = False
+        Pressed = False
+        PopupMode = False
+        StateNormal.Color = 15313517
+        StateNormal.BorderColor = 11382189
+        StateNormal.BorderWidth = 0
+        StateHover.Color = 15313517
+        StateHover.BorderColor = 14120960
+        StateHover.BorderWidth = 1
+        StateActive.Color = 10510137
+        StateActive.BorderColor = 10048512
+        StateActive.BorderWidth = 0
+        StateDisabled.Color = 13421772
+        StateDisabled.BorderColor = 12566463
+        StateDisabled.BorderWidth = 1
+      end
+      object ColorSpeedButton2: TColorSpeedButton
+        Tag = 1
+        Left = 120
+        Height = 30
+        Top = 1
+        Width = 119
+        Align = alLeft
+        BorderSpacing.Top = 1
+        BorderSpacing.Bottom = 1
+        Caption = 'Notizen'
+        Flat = True
+        Font.Color = clWhite
+        GroupIndex = 1
+        OnClick = ColorSpeedButton1Click
+        ParentFont = False
+        TextAutoSize = True
+        Toggle = False
+        Pressed = False
+        PopupMode = False
+        StateNormal.Color = 15313517
+        StateNormal.BorderColor = 11382189
+        StateNormal.BorderWidth = 0
+        StateHover.Color = 15313517
+        StateHover.BorderColor = 14120960
+        StateHover.BorderWidth = 1
+        StateActive.Color = 10510137
+        StateActive.BorderColor = 10048512
+        StateActive.BorderWidth = 0
+        StateDisabled.Color = 13421772
+        StateDisabled.BorderColor = 12566463
+        StateDisabled.BorderWidth = 1
+      end
+      object ColorSpeedButton3: TColorSpeedButton
+        Tag = 2
+        Left = 239
+        Height = 30
+        Top = 1
+        Width = 119
+        Align = alLeft
+        BorderSpacing.Top = 1
+        BorderSpacing.Bottom = 1
+        Caption = 'Ansprechpartner'
+        Flat = True
+        Font.Color = clWhite
+        GroupIndex = 1
+        OnClick = ColorSpeedButton1Click
+        ParentFont = False
+        TextAutoSize = True
+        Toggle = False
+        Pressed = False
+        PopupMode = False
+        StateNormal.Color = 15313517
+        StateNormal.BorderColor = 11382189
+        StateNormal.BorderWidth = 0
+        StateHover.Color = 15313517
+        StateHover.BorderColor = 14120960
+        StateHover.BorderWidth = 1
+        StateActive.Color = 10510137
+        StateActive.BorderColor = 10048512
+        StateActive.BorderWidth = 0
+        StateDisabled.Color = 13421772
+        StateDisabled.BorderColor = 12566463
+        StateDisabled.BorderWidth = 1
+      end
+      object ColorSpeedButton4: TColorSpeedButton
+        Tag = 3
+        Left = 358
+        Height = 30
+        Top = 1
+        Width = 119
+        Align = alLeft
+        BorderSpacing.Top = 1
+        BorderSpacing.Bottom = 1
+        Caption = 'Besuche'
+        Flat = True
+        Font.Color = clWhite
+        GroupIndex = 1
+        OnClick = ColorSpeedButton1Click
+        ParentFont = False
+        TextAutoSize = True
+        Toggle = False
+        Pressed = False
+        PopupMode = False
+        StateNormal.Color = 15313517
+        StateNormal.BorderColor = 11382189
+        StateNormal.BorderWidth = 0
+        StateHover.Color = 15313517
+        StateHover.BorderColor = 14120960
+        StateHover.BorderWidth = 1
+        StateActive.Color = 10510137
+        StateActive.BorderColor = 10048512
+        StateActive.BorderWidth = 0
+        StateDisabled.Color = 13421772
+        StateDisabled.BorderColor = 12566463
+        StateDisabled.BorderWidth = 1
+      end
+      object ColorSpeedButton5: TColorSpeedButton
+        Tag = 4
+        Left = 477
+        Height = 30
+        Top = 1
+        Width = 119
+        Align = alLeft
+        BorderSpacing.Top = 1
+        BorderSpacing.Bottom = 1
+        Caption = 'Termine'
+        Flat = True
+        Font.Color = clWhite
+        GroupIndex = 1
+        OnClick = ColorSpeedButton1Click
+        ParentFont = False
+        TextAutoSize = True
+        Toggle = False
+        Pressed = False
+        PopupMode = False
+        StateNormal.Color = 15313517
+        StateNormal.BorderColor = 11382189
+        StateNormal.BorderWidth = 0
+        StateHover.Color = 15313517
+        StateHover.BorderColor = 14120960
+        StateHover.BorderWidth = 1
+        StateActive.Color = 10510137
+        StateActive.BorderColor = 10048512
+        StateActive.BorderWidth = 0
+        StateDisabled.Color = 13421772
+        StateDisabled.BorderColor = 12566463
+        StateDisabled.BorderWidth = 1
+      end
+    end
+    object Image1: TImage
+      Left = 1255
+      Height = 50
+      Hint = 'Edit'
+      Top = 136
+      Width = 50
+      Anchors = [akTop, akRight]
+      AutoSize = True
+      OnClick = Image1Click
+      ParentShowHint = False
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B477261706869635306000089504E47
+        0D0A1A0A0000000D49484452000000320000003208060000001E3F88B1000000
+        017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048
+        597300000EC300000EC301C76FA864000005E8494441546843C59A3F681D4710
+        C6F50E152A5C0862880A075CA84891C285202A52A87411480A055CA870A14285
+        03313860138738A8504202295CA850A142061536381082DC29A0C20605DCD828
+        908002B1B1420C2E1C702041CAEF9B9BBD77F7EEE9BDFBB3CFFA60DEECCECECE
+        ECEEEDEEEDCEBDCE58241C1D1D4D40739D4E6716FE26A2A91C09CFA103113A4F
+        D17904BF07FD6DA527091A73FAF0F07001BA0DBD245F0BD479056D418BD01937
+        DB088D9E086D9884BE20B9C4884EA4D214C835EABF41F60428FFD3E56FC0F474
+        4E43D3C80B0DA7FC3FD82DE8F324499E987054C099A6CF5546EF053C03F95DE8
+        3AC973AE3A14E84F4357A01DE8DFD452F69456484EBA6A5C60780E07CFCC1B90
+        73680D6A352504CC698AAE40AF52EB66FF0534EF2A718041CDE1FCA8695EBFE3
+        C5D180E9B3D8DD48BD64B8E1C5CD8191710C7F97DACB46E9BC178F0CF89885FE
+        70B7F2BB093BE5C5F5404575E2B65902A4F7A0692F1E39703985BF9DD4BBF957
+        BA7E67A8987F123FC09A8D480BE05383B9668D00A4EF7A51355061D1EB5A275C
+        7C62A00DABDE1CB567D9C58381AE76275BD8F03DD86B7F12BDA00D7A32DB6A93
+        407AC18BFA039D09946C8B856B61BFB635310C34495BF4BEB74DA78870F42983
+        C2AB5214508EB63B614E0B771BD28BB3F1BB013BE7A81F66CBAA8B8BA06C9242
+        7B63C3B75C1C05D8D3669181BC3A35E3C5B5403D5B2F70BD90CB3306A1ED52AE
+        10ED658749DB796457F6F340B60E3B7E8AF481F4A91706BCB88B21D3FCB3E301
+        7CCDC55181694D8B6CC106C82FB4E86A9580BECE7506D2DD4127B3E07215B43E
+        3B0D02F6E7A15FDD9D81BC06B1F2EE88AE3625BB36C0AFBBD88CDB1B1CBEEBA2
+        D670679ACF675D94416550768A86EF7B516594DA4CBA7FEF5A025BCB6E535347
+        E9D28823D37CD7FAB9E4A2CAA04E7116F173DEF342E5FBC4206047A7D8EC482E
+        90D7FBE9A2ABB406B6B4AEC356BC24C10DCF3C739DD6C0964EAB7D41D92EEC3D
+        576D056CDD779BEB095C810241D7D3D65023B9C65EF06C0994E9FDA15BA13AAB
+        6B6F1B84364F25FA49D376C76E051A360EDDF4EC30E8A9B48DA08436173AA2A0
+        412BD0898B8C78D575760DDD7F3CDD08D4B7C006E87624276C043AA160C14A9A
+        1B0C741F2449A288495BD8E0D376EBC8B832185738A631A8FF1906ABCEF9CBCE
+        A3411D09532A2CFADAA0136FC33E49738381EE2D9EC603CFB602B66CE0E0CFF3
+        1DA97578CB0343BAB50D5D63E8694D5C4B73511006FF20DF91C65B2123FC11F4
+        160DFDDD457DC1D4FB3A721431B4F920C1F853CFC4B80D7E0C7D4987BE4DB35D
+        20D3807D95E6A221B4F989DE8EF3383190AEDD19AACD79B2006C65514947B4E3
+        8980BD53F808578F2B65414D78BDBBB0C2FB83BC0E8433B209453B550760B3FC
+        00486CB960C7043560961CD45FCF8C3A10EB86D8E85A3B08D8B4D02A7CCF4526
+        B438165CA7C95A8B9E3A16D908900D48D7E6C6BBE030605B83F397FBEBC6B9C8
+        9C5103BCA0D2DB3900FD42470290BF8406C79F1A02BB4BEE467E665D9C028102
+        012AD07A29DDEA8E03FAA58E2053B4FE7D57890ACC2BDA13626FDB2EEE02A19E
+        4A58F41B2E1E0A7443D04C3741DDF6A27F6EC803FB76F31448F75F7B14E84B91
+        E158A51EA0771F5254A3F10BB52AF091DD3CE19B2E2E83F27C904EDF2746B660
+        EB82B6E835F1D0DBD63F3897070A17A42C90D637093B1D9F34684B767D265DED
+        7D87AEDDE3052A8D24605707B4211F905B777135F48CC04DD8893C999E4ED49F
+        2154D09CCC7FFA52B873E40B3A005FF29F1F4C7DAB69B666A928633A471948EF
+        4323DD5E055C6977B2852D90D680B6DF783094DFBBB56328141A7D47C3A676CD
+        65C8B65881B45ED4F1A63506F59F93BC037DD1D2FC2DFC85A309B0A1B3D312D4
+        FB8784DAA7F14AC0BE8EE6AB7292BA33873A53E94F358AC5565E43E86ADA2A32
+        BF01D9013080FC2654EB6ED4715E0BEEE41B6E971FA69214B44191989F21FB53
+        0DE50A31D9559A327552776C71D59FA1BCF70F393FC13EE53A2C1BB5D0A82301
+        74480B5F9DF9804635BA73D0F85F6077A01FDB44575A75240F3AA50F443AF1BE
+        0B692330A283B629D0E0EC8F679002108FA1EF697C8498F3D8D8FF3E4F8CF356
+        A93B040000000049454E44AE426082
+      }
+      ShowHint = True
+    end
+    object Image2: TImage
+      Left = 1255
+      Height = 50
+      Hint = 'Save'
+      Top = 208
+      Width = 50
+      Anchors = [akTop, akRight]
+      AutoSize = True
+      OnClick = Image2Click
+      ParentShowHint = False
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B47726170686963BC05000089504E47
+        0D0A1A0A0000000D49484452000000320000003208060000001E3F88B1000000
+        017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048
+        597300000EC300000EC301C76FA86400000551494441546843D59ACF6B545714
+        C767862CB2701150681659A49065172E02DA9DCB2C0ABA70D145A05DB8C81FA0
+        5441B192858A2D2D7491450A0A29646141A59466A7E0A282822E145D1414544C
+        A96041C1424BD2CFF7DC739FF74D2693796FDE64E67DE1CCFD71CE3BF79C7BEF
+        BB73EEBDAFD9A8089B9B9BE3D0A166B37990F423AA2613125E43EB22645E22F3
+        90740D7A67DC610263F66D6C6CCC4357A1B7940B8167DE43BF41C7A029575B0A
+        A546041B26A0B36417E8D1F1501B40BD7AFD0FC84600FE9F5EBF9744A3B30F9A
+        A13E6738FCFF487E82CEB45AAD17563928D098A6CF497AEF0D6906CA77A1D364
+        F7BBE88E407E063A0EDD86FE0D9AB2513A4F76C245AB058A0FD1C02B6B0DA871
+        6819EA6B4A08A8D3143D0FBD0FDA4DFF1BE8A88B5403146A0EA7BDA679FD89B3
+        2B03AAA7D1BB125AC9F0B5B3CB03256328FE2EE8CB7A69CED903036D1C849E7B
+        B36A7795648FB38B8107E5C455D304C83F86669C3D70D0E424EDDD0EAD5BFBCA
+        17778607D391F885A45C8FF401DA54672E9B1180FC3567F5061E38E6CF9A135E
+        3D3460C3929B237B16BDBA3B90D5EA642F36E963925D1F8976608346E6A66C12
+        C8CF3BAB33901947C8965852BDD8BBF64EEC044CD212FDD46D531411439FAD80
+        79528202C21D57A7A82C812D8FD44F899750CFFF2FD2115405E87967E5006B3F
+        BC385B96BCDAD0F254420A3BBEF2FC1A61C29A317A0421C718349DD098B32A03
+        3A1F90FC184A0DFDB765332675E42C82724631CF89503B7AC0C673D8F8B777D4
+        A550EB8EC05020B7A03CB8C2683CF4FCC8010714947EEBF9238C8A4518D19139
+        2A63147BCED39105B67E83CD711F73443F716A1DD60FCC7B030FA12B008EFC43
+        12DF61B3BD85F11A89B842DDF0B40CDEA1EB4A249543F5C060B6E2D42CD36B4A
+        CBE61C0D47ECB89F40BEE3F2DB0FA423A80A501BCEDA1688E97F252EC50B9912
+        0AAF5CA62B3A3852397A714440EE7797BFACA9A5830241DBD3BA21DA3CA9973D
+        3DE5A81BA2CD3947B43ED70ABCE876B0013E389254D609D6F9D86E8E584CC4BB
+        A2D0A4B69023714AC597BE36A0F3155A297D9D3AB27D7C3FBA889DBF9E3A62DE
+        D50CD1E6F5162FCA4B2F8CCC6EB000A2CD2FF48768213B0E6987571B67B05B67
+        09B3A1D478A41159A352D1A46021711D80CDE9D6E3BA1C51947A2B9443485C04
+        28FC99E4E37E081DDF931645DC7A3C61EB114215A6949D63912A9AECFAD22393
+        0B1A15B039AB34505328FA4544C7437FB9AC9D7335F54341271E4F199D317817
+        F0F094EA3B418D2037ED4529D5ADD3452F96023ABE40C7975E54F9193668B43A
+        021B742F63A728C87E8AEC1D6308302F53290F75B49F19DA0E3922B941426D78
+        735B007B027E3C7BBBE9D51F40A5562DBB9F205DF1EA2D80375447E02DBA98E4
+        E2AA95070CDD1419B61352232E3230A80D6F2E0758BA3F899DBDEAD55B015FC3
+        66D76AA4BA9F1899B0055BF660D37DB74DB765DDFFF310F85CC20279DD49547E
+        625806D8A2CB1E03F9E35EDD1DC866CB210F2D7BF5D0800DBA6835902FB6DCB7
+        F5C00F2443199936278ACF101ED09C4CAFBE743FB16B11326DA9FDB433755753
+        EE9DE54129BB669A00795D17547E9BDB0E9AD2EA642FB6405E1DDAFFC283A274
+        EDD68AA1ABB0CA5734746AD55C84D2FB76FD515737AD51A86F4EDA2FF4357F73
+        9F7094013A143B2D40ED1F24F4B63A1505FA7565BCA4464273D6E05B481FD5CC
+        53ECF91D4256D3F628B4025900184179152AB437B2A0B128BC914B046EB9FD0B
+        36E824E61E641FD5C0D711936DA5E1C949EDB195EAF959F8ED1FE4683B718220
+        503A0AA194231138A4175FCE1CC6A8CE71CF0EC0F82724DAD3FC9A8B620BA22F
+        4752E094B6029F4107202D044638688B0206671F9E41BA8379045DC7F80ACE9C
+        1B8DFF01999D3BDB8F2E58E90000000049454E44AE426082
+      }
+      ShowHint = True
+    end
+    object Label19: TLabel
+      Left = 1256
+      Height = 13
+      Top = 187
+      Width = 48
+      Alignment = taCenter
+      Anchors = [akTop, akRight]
+      AutoSize = False
+      Caption = 'Edit'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label20: TLabel
+      Left = 1252
+      Height = 13
+      Top = 256
+      Width = 57
+      Alignment = taCenter
+      Anchors = [akTop, akRight]
+      AutoSize = False
+      Caption = 'Speichern'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Button2: TButton
+      Left = 219
+      Height = 25
+      Top = 23
+      Width = 75
+      Caption = 'Button2'
+      OnClick = Button2Click
+      TabOrder = 7
+      Visible = False
+    end
+    object Image3: TImage
+      Left = 248
+      Height = 24
+      Top = 97
+      Width = 24
+      AutoSize = True
+      OnClick = Image3Click
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B47726170686963E802000089504E47
+        0D0A1A0A0000000D4948445200000018000000180806000000E0773DF8000000
+        017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048
+        597300000EC300000EC301C76FA8640000027D49444154484B9D963F485B5114
+        C69390218383838343860C423B74701074083443410B165AE890C1D1D1A160C0
+        C521529C1C327468A1944CDD14950CB674E8D05548878A4217C10C190A0D3828
+        2889BFEFBE93A7EFF97263FCE0E3DCFB9D73CFB9EFFE4BD2290F7ABDDE187C4D
+        731E16605E3A68C316FC9E4EA7F7E03FA72620B18012632AD835AC1229C911F6
+        14CAAF424FE0227C063FE1DFF0150AD1ED7667E09971C1E48120660E1EC3FF43
+        E30928C30B586796E3260F05B139C66CD9D877264781433357C0924923834225
+        C65F412DDD2D708C216A49EA263D1AE4AA92E71CF60F44289E6123CB423F6BBE
+        9FC65DFAD3E64E84C610D784C16411347B2D4D64832CF000BE3549CB98870D18
+        5D8218340962B454531AB404FF9A2F04419A7998BC0F746DE82FACF71010F303
+        AE6768EB12ED39F50E48F03C93C96C5B370467FD12B38FBF182803B10FE755A0
+        6097681474A0F70BC8F907535001EDB6BBA1317498E584B5E398B5043E9C1293
+        57812CBC7652149B14F808E50F41FF05465FFD3B50FC50811683F49045C0FA1F
+        92E42B3E6D56052EC3CFF457718F6387ED419E98B62B00F570DD0305F4C8BDA1
+        7982D5577EA1F04BDAAF185CF315C1F714D3D271D2CC9A81FC70906092713AAE
+        4A740FF876E17B054ED0D0A59831DF8361459AF122F40BE817D8E0D6D3F9008F
+        11724E18014ACED803EB3AD0D7B3D2B0AE0BD257E83DDF32E9D120C70ABC5261
+        9302202E407D56C9A491615FA39774D9A42870E838AA7A1546CEFF30304E3357
+        F29A49C92060D102B579DEA75920461BAA35D741499E791C04EA59AE433DE3BA
+        682B242A2999B188A6E3ADA3A898065AE271F5FE6D61E014A60CDDDF162E98FB
+        952259FF6FCB37B41D38E0D948A56E0021AE2707BA42AADE0000000049454E44
+        AE426082
+      }
+      Proportional = True
+      Stretch = True
+    end
+  end
+end

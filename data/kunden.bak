@@ -1,0 +1,9 @@
+﻿id;mediaberater;name;name2;name3;strasse;land;plz;ort;email;telefon;fax;branche;ustid;umsatz_vorjahr;umsatz_lfd_jahr;newsletter
+1;111;Kirch Fritz;;;Pretzfelderstr. 13;DE;90425;Nürnberg;friedrich.kirch@it2media.de;;;unbekannt;;;;x
+2;112;Forstner Stephan;;;Fürstenriederstr. 256;;;München;stephan.forstner@it2media.de;;;media;;;;
+3;111;Rottmann Thomas;;;Pretzfelderstr. 13;DE;90425;Nürnberg;friedrich.kirch@it2media.de;;;unbekannt;;;;x
+4;112;Swoboda Fabian;;;Fürstenriederstr. 256;;;München;stephan.forstner@it2media.de;;;media;;;;
+5;111;Eiter Sven;;;Pretzfelderstr. 13;DE;90425;Nürnberg;friedrich.kirch@it2media.de;;;unbekannt;;;;x
+6;112;Schultz Eckhard;;;Fürstenriederstr. 256;;;München;stephan.forstner@it2media.de;;;media;;;;
+7;111;Weichs Bastian;;;Pretzfelderstr. 13;DE;90425;Nürnberg;friedrich.kirch@it2media.de;;;unbekannt;;;;x
+8;112;Krause Michael;;;Fürstenriederstr. 256;;;München;stephan.forstner@it2media.de;;;media;;;;

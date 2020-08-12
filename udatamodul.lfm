@@ -1,0 +1,33 @@
+object DM: TDM
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 375
+  HorizontalOffset = 344
+  VerticalOffset = 168
+  Width = 228
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    AlwaysUseBigint = False
+    Left = 48
+    Top = 24
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Left = 48
+    Top = 104
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    Left = 48
+    Top = 192
+  end
+  object UpdateQuery: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    Left = 48
+    Top = 256
+  end
+end
